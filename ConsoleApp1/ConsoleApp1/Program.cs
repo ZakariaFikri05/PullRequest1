@@ -8,6 +8,7 @@ class Studente
         Cognome = cognome;
         Nome = nome;
     }
+
     public Studente()
     {
     }
@@ -19,4 +20,8 @@ class Studente
         Console.WriteLine("Hello, world");
         Studente s = new Studente();
     }
+}
+    public int Matricola { get; set; }
+    public string Cognome { get; set; }
+    public string Nome { get; set; }
 }
